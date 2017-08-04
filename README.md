@@ -1,4 +1,4 @@
-# Ruby Bash script Bootstrap
+# Ruby Bash Script Bootstrap
 
 Used to write a lot of bash scripts, googling how to make loops or conditions every single time  until I decided to create this bootstrap in Ruby.
 
