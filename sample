@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-# Make the `OPTIONS` hash available
-require "./config/options"
+require_relative "config/bootstrap"
 
-# ... your code here
+# ... example of colored text
+puts "Colored and underlined text".red.underline
 
-# Example of system command:
-# p `ls`
+# ... example of concatenated system command
+puts "Hi #{`whoami`}"

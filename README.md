@@ -13,3 +13,7 @@ If you need to create another bash file, don't forget to make it executable with
 ## Options
 
 Define your script options in the `config/options.rb` file (self-documented), options are then available in the `OPTIONS` hash.
+
+## Styles
+
+Styles available on the `String` object are listed in the `config/styles.rb` file. Use it by calling the desired style on your strings: `"My text".red.underline`
