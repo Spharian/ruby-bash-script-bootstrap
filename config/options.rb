@@ -3,7 +3,7 @@ require "optparse"
 OPTIONS = {}
 OptionParser.new do |opts|
   # First sentence displayed when running `./sample --help`
-  opts.banner = "Usage: test-bash-ruby [options]"
+  opts.banner = "Usage: sample [options]"
 
   # ... example of a boolean option
   opts.on("-b", "--boolean-option", "Boolean option") do |v|
