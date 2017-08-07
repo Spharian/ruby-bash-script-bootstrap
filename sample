@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-
-require_relative "config/bootstrap"
-
-# ... example of colored text
-puts "Colored and underlined text".red.underline
-
-# ... example of concatenated system command
-puts "Hi #{`whoami`}"

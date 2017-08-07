@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative "../config/bootstrap"
+
+# ... example of colored text
+puts "Colored and underlined text".magenta.underline
+
+# ... example of concatenated system command
+puts "Hi #{`whoami`}"
+
+# ... example of console input
+cli = HighLine.new
+age = cli.ask("Age? ".cyan, Integer) { |q| q.in = 0..105 }
+puts age
