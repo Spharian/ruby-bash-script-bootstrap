@@ -21,4 +21,4 @@ Styles available on the `String` object are listed in the `config/styles.rb` fil
 
 ## Console input and output
 
-Read the [Highline gem's documentation](https://github.com/JEG2/highline).
+Read the [HighLine gem's documentation](https://github.com/JEG2/highline).
